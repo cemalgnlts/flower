@@ -11,6 +11,11 @@ https://cemalgnlts.github.io/flower
 * **Lightweight:** No dependencies, written from scratch.
 * **Vanilla JavaScript**: Does not need any framework.
 
+## Build
+```sh
+npm run build
+```
+
 ## ToDo
 - [ ] Mobile support.
 - [ ] Better API.

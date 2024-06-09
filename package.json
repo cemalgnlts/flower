@@ -1,0 +1,17 @@
+{
+  "name": "flower",
+  "version": "1.0.0",
+  "description": "Node (flow graph) editor library.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build:web && npm run build:esm",
+    "build:web": "esbuild src/index.ts --bundle --minify --platform=browser --outfile=dist/flower.min.js",
+    "build:esm": "esbuild src/index.ts --bundle --format=esm --platform=browser --outfile=dist/flower.esm.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.21.4"
+  }
+}
