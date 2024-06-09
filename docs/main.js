@@ -1,4 +1,4 @@
-import { NodeBuilder, Flower } from "/flower.esm.js";
+import { NodeBuilder, Flower } from "./flower.esm.js";
 
 const flower = new Flower(document.getElementById("container"));
 
